@@ -59,8 +59,8 @@ class Student_Grades():
 
 if __name__ == '__main__':
 	#Call all functions
-	value = GradePortfolio()
+	value = Student_Grades()
 	print ()
 	print ('The average grade is:', value.avg_grade())
 	print ('The average change grade is:', value.grade_change())
-	print ('Number of Females:', value.female_count())
+	print ('Number of boys:', value.male_count())

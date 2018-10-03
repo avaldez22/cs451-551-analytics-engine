@@ -7,7 +7,7 @@ from avaldezhw3 import Student_Grades
 
 
 
-class TestWrapper(unittest.TestCase):
+class TestStudent_Grades(unittest.TestCase):
 
 	def test_init(self):
 		a = Student_Grades('/data/grade-data.json')
